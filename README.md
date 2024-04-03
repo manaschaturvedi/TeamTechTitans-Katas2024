@@ -7,7 +7,7 @@ Team TechTitans Architectural Katas by O'Reilly, April 2024
 - Saransh Jain
 - Shishir Kumar
 - Greeva Shah
-- Summet Singh
+- Sumeet Singh
 
 ---
 
