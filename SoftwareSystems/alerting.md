@@ -15,6 +15,8 @@ Below is the high-level architecture view of ***Alerting System*** in the Fish W
 | ***Notification Service***  | Service for managing alert notifications, delivery channels (email, SMS, push notifications), message templates, delivery retries, and notification history tracking. | SMTP, Twilio API, Push Notification Services |
 | ***Alert Dashboard***  | Dashboard interface for visualizing active alerts, alert trends, alert history, severity levels, acknowledgment status, and drill-down capabilities for detailed alert analysis. | Grafana, Kibana, Custom Dashboards |
 
+![Alert Component Diagram](../Assets/components/Alerting.png)
+
 ## Architectural Characteristics
 
 | Characteristics  | Decisions |

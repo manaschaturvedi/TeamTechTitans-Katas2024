@@ -15,6 +15,8 @@ Below is the high-level architecture view of ***Data Acquisition*** in the Fish 
 | ***Data Preprocessing***  | Preprocessing pipeline for data cleaning, normalization, feature extraction, outlier detection, and data enrichment to prepare raw sensor data for analytics and machine learning models. | Apache NiFi, Pandas, NumPy, Scikit-Learn |
 | ***Data Storage and Persistence***  | Storage solutions for storing raw sensor data, processed data, metadata, and historical data snapshots for long-term storage, analysis, and archival purposes. | Apache HBase, Amazon S3, PostgreSQL, Elasticsearch |
 
+![Data Acquisition Component Diagram](../Assets/components/Data-Acquisition.png)
+
 ## Architectural Characteristics
 
 | Characteristics  | Decisions |
