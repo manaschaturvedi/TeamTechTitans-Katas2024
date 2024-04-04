@@ -4,7 +4,7 @@
 
 Below is the high-level architecture view of ***Orchestrator System*** in the Fish Watch system.
 
-![Orchestrator System Architecture](https://example.com/orchestrator-system-architecture.png)
+![Orchestrator System Architecture](https://github.com/TeamTechTitans-Katas2024/main/assets/component-orchaestrator.png)
 
 ## Component Details
 
