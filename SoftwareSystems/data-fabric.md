@@ -4,7 +4,7 @@
 
 Below is the high-level architecture view of ***Data Fabric*** in the Fish Watch system.
 
-![Data Fabric Architecture](https://example.com/data-fabric-architecture.png)
+![Data Fabric Architecture](https://github.com/TeamTechTitans-Katas2024/main/assets/component-data-fabric.png)
 
 ## Component Details
 

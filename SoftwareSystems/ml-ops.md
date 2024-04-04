@@ -4,7 +4,7 @@
 
 Below is the high-level architecture view of ***ML Ops*** in the Fish Watch system.
 
-![ML Ops Architecture](https://example.com/ml-ops-architecture.png)
+![ML Ops Architecture](https://github.com/TeamTechTitans-Katas2024/main/assets/component-mlops.png)
 
 ## Component Details
 
