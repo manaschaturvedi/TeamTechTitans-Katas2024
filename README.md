@@ -42,8 +42,7 @@ Below is the proposed high level architecture for implementing the FishWatch sol
 | Data Integrity | Maintain the accuracy, consistency, and reliability of data throughout its lifecycle, implementing measures to prevent data corruption, unauthorized modifications, or loss, thereby ensuring the trustworthiness of the information available to farmers. |
 | Security  | Protect sensitive farm data from unauthorized access, breaches, or cyber threats through robust authentication, encryption, and access control mechanisms, safeguarding the confidentiality, integrity, and availability of the data. |
 | Scalability | Design the system to seamlessly accommodate the increasing data loads, user demands, and business growth, ensuring that it can scale horizontally or vertically to meet evolving requirements without compromising performance or reliability. |
-| Durability | Implement data backup, replication, and disaster recovery mechanisms to ensure the resilience and persistence of data, even in the event of hardware failures, system crashes, or natural disasters, thereby minimizing the risk of data loss and ensuring continuity of operations. |
 
 ## Architecture Style Decisions
-
+![ADR](ADR/000-architectural-approach.md)
 ![Architecture Styles Worksheet](Assets/architecture-styles-worksheet.png)

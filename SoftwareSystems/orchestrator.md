@@ -31,6 +31,6 @@ Below is the high-level architecture view of ***Orchestrator System*** in the Fi
 - Service-Oriented Architecture (SOA) for modular, loosely coupled services, standardized interfaces, and reusable components supporting flexible integration and extensibility.
 
 ## Deployment View
-Below is the deployment view based on the architecture choice and this ADR [Deploy Orchestrator System in cloud.md](https://github.com/example/adr-repo/blob/main/ADRs/Deploy%20Orchestrator%20System%20in%20cloud.md)
+Below is the deployment view based on the architecture choice and this ADR [Deploy Orchestrator System in cloud.md](../ADRs/014-deployment-strategy.md)
 
-![Orchestrator System Deployment View](https://example.com/orchestrator-system-deployment.png)
+![Orchestrator System Deployment View](../Assets/orchestrator-deployment-diagram.png)
