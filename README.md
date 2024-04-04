@@ -27,11 +27,11 @@ Fish farmers use this information to understand the health of their livestock, c
 ## High Level Architecture
 Below is the proposed high level architecture for implementing the FishWatch solution:
 
-[![High Level Architecture](Assets/high-level-diagram.png)
+![High Level Architecture](Assets/high-level-diagram.png)
 
 ## Architecture Characteristics
 
-[![Architecture Characteristics Worksheet](Assets/architecture-worksheet.png)
+![Architecture Characteristics Worksheet](Assets/architecture-worksheet.png)
 
 | Architecture Characteristics  | Business Needs |
 | ------------- | ------------- |
@@ -46,4 +46,4 @@ Below is the proposed high level architecture for implementing the FishWatch sol
 
 ## Architecture Style Decisions
 
-[![Architecture Styles Worksheet](Assets/architecture-styles-worksheet.png)
+![Architecture Styles Worksheet](Assets/architecture-styles-worksheet.png)

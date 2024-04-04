@@ -4,7 +4,7 @@
 
 Below is the high-level architecture view of ***Orchestrator System*** in the Fish Watch system.
 
-![Orchestrator System Architecture](https://github.com/TeamTechTitans-Katas2024/main/assets/component-orchaestrator.png)
+![Orchestrator System Architecture](https://example.com/architecture-orchaestrator.png)
 
 ## Component Details
 
@@ -14,6 +14,8 @@ Below is the high-level architecture view of ***Orchestrator System*** in the Fi
 | ***Workflow Orchestration Engine***  | Engine for defining, managing, and executing complex workflows, business processes, and data pipelines across different systems, ensuring proper sequencing, dependencies, and error handling. | Apache Airflow, Jenkins, Workflow Management Tools |
 | ***Event Bus***  | Centralized event bus for event-driven communication, message routing, pub/sub messaging patterns, and asynchronous interactions between distributed components and systems. | Apache Kafka, RabbitMQ, Event Streaming Platforms |
 | ***API Gateway***  | Gateway for providing unified access, authentication, authorization, and API management capabilities to external systems, users, and third-party integrations interacting with the Orchestrator System. | Kong, Apigee, API Management Platforms |
+
+![Orchestrator Component Diagram](../Assets/component-orchaestrator.png)
 
 ## Architectural Characteristics
 
