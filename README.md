@@ -3,11 +3,11 @@
 Team TechTitans Architectural Katas by O'Reilly, April 2024
 
 ## Team Members:
-- Manas Chaturvedi
-- Saransh Jain
-- Shishir Kumar
-- Greeva Shah
-- Sumeet Singh
+- [***Manas Chaturvedi***](https://www.linkedin.com/in/manaschaturvedi2202/)
+- [***Saransh Jain***](https://www.linkedin.com/in/saranshj9/)
+- [***Shishir Kumar***](https://www.linkedin.com/in/shishir1995/)
+- [***Greeva Shah***](https://www.linkedin.com/in/greevashah/)
+- [***Sumeet Singh***](https://www.linkedin.com/in/sumeet-singh-724839133/)
 
 ---
 
