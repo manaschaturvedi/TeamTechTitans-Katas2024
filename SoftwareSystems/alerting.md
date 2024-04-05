@@ -31,6 +31,6 @@ Below is the high-level architecture view of ***Alerting System*** in the Fish W
 - Event-Driven Architecture for real-time event processing, asynchronous alert generation, and event-driven workflows aligned with Fish Watch monitoring needs.
 
 ## Deployment View
-Below is the deployment view based on the architecture choice and this ADR [Deploy Alerting System in cloud.md](https://github.com/example/adr-repo/blob/main/ADRs/Deploy%20Alerting%20System%20in%20cloud.md)
+Below is the deployment view based on the architecture choice and this ADR [Deploy Alerting System in cloud.md](../ADRs/005-alerting-metrics-and-thresholds.md)
 
-![Alerting System Deployment View](https://example.com/alerting-system-deployment.png)
+![Alerting System Deployment View](../Assets/deployment/Alerting.png)
