@@ -13,6 +13,7 @@
 | 6.   | **Alert Delivery**: The Alerting component sends the alert to the user via the selected mode (e.g., message, email, WhatsApp). |
 
 ## Alerting Sequence Diagram
+
 ![Alert Sequence Diagram](../Assets/sequence_diagrams/alerting_and_notification.png)   
 ## Component Details
 
