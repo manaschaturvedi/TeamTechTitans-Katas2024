@@ -32,6 +32,6 @@ Below is the high-level architecture view of ***Core Service*** in the Fish Watc
 - Microservices Architecture for modular, independent services, API-driven interactions, and agile development, deployment, and scaling of Core Service components.
 
 ## Deployment View
-Below is the deployment view based on the architecture choice and this ADR [Deploy Core Service in cloud.md](https://github.com/example/adr-repo/blob/main/ADRs/Deploy%20Core%20Service%20in%20cloud.md)
+Below is the deployment view based on the architecture choice and this ADR [Deploy Core Service in cloud.md](../ADRs/014-deployment-strategy.md)
 
-![Core Service Deployment View](https://example.com/core-service-deployment.png)
+![Core Service Deployment View](../Assets/core-deployment-diagram.png)
