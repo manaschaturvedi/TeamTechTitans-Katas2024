@@ -31,6 +31,6 @@ Below is the high-level architecture view of ***Data Acquisition*** in the Fish 
 - Event-Driven Architecture for real-time data ingestion, processing, and storage aligned with Fish Watch data acquisition requirements.
 
 ## Deployment View
-Below is the deployment view based on the architecture choice and this ADR [Deploy Data Acquisition System in cloud.md](https://github.com/example/adr-repo/blob/main/ADRs/Deploy%20Data%20Acquisition%20System%20in%20cloud.md)
+Below is the deployment view based on the architecture choice and this ADR [Deploy Data Acquisition System in cloud.md](../ADRs/014-deployment-strategy.md)
 
-![Data Acquisition Deployment View](https://example.com/data-acquisition-deployment.png)
+![Data Acquisition Deployment View](../Assets/data-acquisition-deployment-diagram.png)
