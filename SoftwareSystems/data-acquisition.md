@@ -30,4 +30,4 @@
 ## Deployment View
 Below is the deployment view based on the architecture choice and this ADR [Deploy Data Acquisition System in cloud.md](../ADRs/014-deployment-strategy.md)
 
-![Data Acquisition Deployment View](../Assets/deployment/DataAcquisition.png)
+![Data Acquisition Deployment View](../Assets/deployment/data-acquisition.png)

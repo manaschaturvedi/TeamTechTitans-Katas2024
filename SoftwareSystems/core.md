@@ -52,4 +52,4 @@ Below is the high-level architecture view of ***Core Service*** in the Fish Watc
 ## Deployment View
 Below is the deployment view based on the architecture choice and this ADR [Deploy Core Service in cloud.md](../ADRs/014-deployment-strategy.md)
 
-![Core Service Deployment View](../Assets/deployment/Core.png)
+![Core Service Deployment View](../Assets/deployment/core.png)

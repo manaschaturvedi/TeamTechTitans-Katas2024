@@ -31,4 +31,4 @@
 ## Deployment View
 Below is the deployment view based on the architecture choice and this ADR [Deploy Data Fabric System in cloud.md](../ADRs/014-deployment-strategy.md)
 
-![Data Fabric Deployment View](../Assets/deployment/DataFabric.png)
+![Data Fabric Deployment View](../Assets/deployment/data-fabric.png)
