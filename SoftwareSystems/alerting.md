@@ -12,7 +12,8 @@
 | 5.   | **Alert Triggering**: <br>   - If the parameter value exceeds the defined threshold, the ApplicationCore sends the alert details (user info, alert mode, parameter, values, etc.) to the Alerting component. <br>   - If the threshold is not crossed, the ApplicationCore ignores the condition and cleans up the entry from Redis. |
 | 6.   | **Alert Delivery**: The Alerting component sends the alert to the user via the selected mode (e.g., message, email, WhatsApp). |
 
-![Alert Sequence Diagram](../Assets/alerting-and-notification.png)   
+## Alerting Sequence Diagram
+![Alert Sequence Diagram](../Assets/alerting_and_notification.png)   
 ## Component Details
 
 | Component Name  | Component Description | Technology Choices |
