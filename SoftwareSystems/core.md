@@ -6,6 +6,22 @@ Below is the high-level architecture view of ***Core Service*** in the Fish Watc
 
 ![Core Service Architecture](https://example.com/core-service-architecture.png)
 
+
+## Entity Relationship Details
+| Migration File                    | Description                                                                                                              | Indexes / Constraints                                             | Analytics / Inferences                                             |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------------------------------------- |
+| ***UsersTable***               | A table to store user information including name, email, role, location, preferred language, and online status. | Unique index on user_id in farms table.                          | It enables user management and authentication functionalities. It uses for roles and language based UI rendering.|
+| ***FarmsTable***               | A table to store farm details such as name, location, size, and last harvested date.                            | Unique index on farm_id in enclosures table.                     | It facilitates farm management and tracking of harvest data. |
+| ***HarvestsTable***            | A table to record harvest details including farm_id, quantity, quality, and timestamp.                          | Unique index on farm_id in harvests table.                       | It supports tracking of harvest events and performance analysis. |
+| ***HardwaresTable***           | A table to manage hardware devices used in the system, including name, type, installation location, etc.        | Unique index on user_id in hardwares table.                      | It enables tracking of hardware installations and maintenance. |
+| ***EnlosuresTable***           | A table to store enclosure information such as size, capacity, and environmental metrics.                      | Unique indexes on farm_id and hardware_id in enclosures table.    | It facilitates monitoring of environmental conditions in enclosures. |
+| ***SpeciesTable***             | A table to define various species of aquatic life, including mortality rate, reproduction cycle, etc.           | No unique indexes or constraints.                               | It supports management of different species and their characteristics. |
+| ***ThresholdTable***           | A table to store user-defined thresholds for triggering alerts based on parameter values.                       | Unique index on user_id in thresholds table.                    | It enables customization of alert thresholds for user-specific monitoring. |
+
+### ER Diagram
+![FishWatch Core ER Diagram](../Assets/fish_watch_core_ER.png)
+
+
 ## Component Details
 
 | Component Name  | Component Description | Technology Choices |
