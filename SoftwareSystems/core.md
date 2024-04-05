@@ -2,11 +2,6 @@
 
 ***Core Service*** is the central component responsible for housing the core application logic, business rules, data processing, and backend functionalities within the Fish Watch system. It serves as the backbone of the system, orchestrating data flow, handling business operations, and ensuring overall system functionality.
 
-Below is the high-level architecture view of ***Core Service*** in the Fish Watch system.
-
-![Core Service Architecture](https://example.com/core-service-architecture.png)
-
-
 ## Entity Relationship Details
 | Migration File                    | Description                                                                                                              | Indexes / Constraints                                             | Analytics / Inferences                                             |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------------------------------------- |

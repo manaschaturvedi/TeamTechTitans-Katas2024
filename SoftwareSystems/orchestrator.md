@@ -12,7 +12,7 @@
 | ***API Gateway***  | Gateway for providing unified access, authentication, authorization, and API management capabilities to external systems, users, and third-party integrations interacting with the Orchestrator System. | Authentication Service, Ambassador |
 
 ### Component Diagram
-![Orchestrator Component Diagram](../Assets/components/orchaestrator.png)
+![Orchestrator Component Diagram](../Assets/components/orchestrator.png)
 
 ## Architectural Characteristics
 
@@ -30,4 +30,4 @@
 ## Deployment View
 Below is the deployment view based on the architecture choice and this ADR [Deploy Orchestrator System in cloud.md](../ADRs/014-deployment-strategy.md)
 
-![Orchestrator System Deployment View](../Assets/orchestrator-deployment-diagram.png)
+![Orchestrator System Deployment View](../Assets/deployment/orchestrator.png)
