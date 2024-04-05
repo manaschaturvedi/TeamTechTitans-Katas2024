@@ -2,6 +2,18 @@
 
 ***Alerting System*** is the software component responsible for real-time monitoring, anomaly detection, threshold-based alerts, and notification management within the Fish Watch system. It ensures timely alerts and notifications to stakeholders based on predefined conditions and thresholds.
 
+
+## Sequence Details
+| Step | Description |
+| ---- | ----------- |
+| 1.   | **User Interaction**: The user interacts with the system interface to customize threshold values according to their preferences. |
+| 2.   | **Interface to ApplicationCore**: The interface sends the user information, threshold values, and parameter information to the ApplicationCore. |
+| 3.   | **Threshold Update**: The ApplicationCore updates the threshold values in the database based on the user input. |
+| 4.   | **Threshold Check**: The ApplicationCore periodically checks the threshold values stored in the database against the current parameter values. |
+| 5.   | **Alert Triggering**: <br>   - If the parameter value exceeds the defined threshold, the ApplicationCore sends the alert details (user info, alert mode, parameter, values, etc.) to the Alerting component. <br>   - If the threshold is not crossed, the ApplicationCore ignores the condition and cleans up the entry from Redis. |
+| 6.   | **Alert Delivery**: The Alerting component sends the alert to the user via the selected mode (e.g., message, email, WhatsApp). |
+
+![Alert Sequence Diagram](../Assets/alerting_and_notification.png)   
 ## Component Details
 
 | Component Name  | Component Description | Technology Choices |
