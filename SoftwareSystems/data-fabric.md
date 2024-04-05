@@ -12,7 +12,8 @@
 | ***Data Governance and Security***  | Governance framework for data access control, data lineage tracking, data quality monitoring, metadata management, and compliance with data privacy regulations. | Google Cloud Platform, Data Quality Tools, Encryption Tools |
 | ***Data Access APIs***  | APIs and services layer for providing data access, query interfaces, data cataloging, and data virtualization capabilities to enable seamless data consumption by applications and users. | RESTful APIs, Elasticsearch, Metabase, Grafana, BigQuery |
 
-![Data Fabric Component Diagram](../Assets/component-data-fabric.png)
+### Component Diagram
+![Data Fabric Component Diagram](../Assets/components/data-fabric.png)
 
 ## Architectural Characteristics
 

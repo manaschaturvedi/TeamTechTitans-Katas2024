@@ -11,7 +11,8 @@
 | ***Event Bus***  | Centralized event bus for event-driven communication, message routing, pub/sub messaging patterns, and asynchronous interactions between distributed components and systems. | RabbitMQ, Redis |
 | ***API Gateway***  | Gateway for providing unified access, authentication, authorization, and API management capabilities to external systems, users, and third-party integrations interacting with the Orchestrator System. | Authentication Service, Ambassador |
 
-![Orchestrator Component Diagram](../Assets/component-orchaestrator.png)
+### Component Diagram
+![Orchestrator Component Diagram](../Assets/components/orchaestrator.png)
 
 ## Architectural Characteristics
 

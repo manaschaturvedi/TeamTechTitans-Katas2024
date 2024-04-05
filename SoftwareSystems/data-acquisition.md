@@ -11,7 +11,8 @@
 | ***Data Preprocessing***  | Preprocessing pipeline for data cleaning, normalization, feature extraction, outlier detection, and data enrichment to prepare raw sensor data for analytics and machine learning models. | Pandas, NumPy, Scikit-Learn, Keras |
 | ***Data Storage and Persistence***  | Storage solutions for storing raw sensor data, processed data, metadata, and historical data snapshots for long-term storage, analysis, and archival purposes. | Google Cloud Storage (GCS), PostgreSQL, Elasticsearch, Redis, BigQuery |
 
-![Data Acquisition Component Diagram](../Assets/components/Data-Acquisition.png)
+### Component Diagram
+![Data Acquisition Component Diagram](../Assets/components/data-acquisition.png)
 
 ## Architectural Characteristics
 
