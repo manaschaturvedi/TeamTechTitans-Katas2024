@@ -7,7 +7,7 @@
 | Component Name  | Component Description | Technology Choices |
 | ------------- | ------------- | ------------- |
 | ***Hardware Devices***  | Sensors, cameras, and monitoring devices installed in fish farms and enclosures to capture water quality metrics, fish health indicators, environmental conditions, and other relevant data points. | IoT Sensors, Cameras, Industrial Monitoring Equipment |
-| ***Data Acquisiiton/Ingestion Layer***  | Layer for ingesting data streams from hardware devices, handling data protocols (MQTT, HTTP, CoAP), data parsing, validation, and initial processing before storage or further processing. | MQTT Broker, RabbitMQ, Custom Data Ingestion Scripts |
+| ***Data Acquisition/Ingestion Layer***  | Layer for ingesting data streams from hardware devices, handling data protocols (MQTT, HTTP, CoAP), data parsing, validation, and initial processing before storage or further processing. | MQTT Broker, RabbitMQ, Custom Data Ingestion Scripts |
 | ***Data Preprocessing***  | Preprocessing pipeline for data cleaning, normalization, feature extraction, outlier detection, and data enrichment to prepare raw sensor data for analytics and machine learning models. | Pandas, NumPy, Scikit-Learn, Keras |
 | ***Data Storage and Persistence***  | Storage solutions for storing raw sensor data, processed data, metadata, and historical data snapshots for long-term storage, analysis, and archival purposes. | Google Cloud Storage (GCS), PostgreSQL, Elasticsearch, Redis, BigQuery |
 

@@ -77,6 +77,6 @@ Below is the proposed high level architecture for implementing the FishWatch sol
 
 ## Architecture Style Decisions
 
-[Architectural Decision](ADRs/000-architectural-approach.md)
+[Architectural Decision Record](ADRs/000-architectural-approach.md)
 
 ![Architecture Styles Worksheet](Assets/architecture-styles-worksheet.png)
