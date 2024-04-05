@@ -3,6 +3,9 @@
 Team TechTitans Architectural Katas by O'Reilly, April 2024
 
 ## Team Members:
+
+![TechTitans Team Theme](Assets/techtitans-katas-2024.png)
+
 - [***Manas Chaturvedi***](https://www.linkedin.com/in/manaschaturvedi2202/)
 - [***Saransh Jain***](https://www.linkedin.com/in/saranshj9/)
 - [***Shishir Kumar***](https://www.linkedin.com/in/shishir1995/)
