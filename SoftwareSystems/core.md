@@ -16,7 +16,10 @@ Below is the high-level architecture view of ***Core Service*** in the Fish Watc
 | ***Event Handling***  | Component for handling asynchronous events, messaging, event-driven architecture patterns, and event processing within the Core Service for real-time updates and data synchronization. | RabbitMQ, Event-Driven Architecture |
 | ***Security and Authentication***  | Security layer for implementing authentication, authorization, identity management, encryption, access control, and security policies to protect sensitive data and system resources. | OAuth2, JWT, SSL/TLS, Identity Providers |
 
-![Core Component Diagram](../Assets/components/Core.png)
+### Component Diagram
+![Core Component Diagram](../Assets/components/Core.svg)
+<!-- ![Core Security Component Diagram](../Assets/components/Core-security.png) -->
+<img src="../Assets/components/Core-security.png" alt="drawing" width="200"/>
 
 ## Architectural Characteristics
 
