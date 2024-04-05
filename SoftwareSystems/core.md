@@ -19,7 +19,7 @@ Below is the high-level architecture view of ***Core Service*** in the Fish Watc
 | ***ThresholdTable***           | A table to store user-defined thresholds for triggering alerts based on parameter values.                       | Unique index on user_id in thresholds table.                    | It enables customization of alert thresholds for user-specific monitoring. |
 
 ### ER Diagram
-![FishWatch Core ER Diagram](../Assets/fish_watch_core_ER.png)
+![FishWatch Core ER Diagram](../Assets/fish-watch-core-ER.png)
 
 
 ## Component Details
