@@ -4,7 +4,7 @@
 
 Below is the high-level architecture view of ***Data Fabric*** in the Fish Watch system.
 
-![Data Fabric Architecture](https://github.com/TeamTechTitans-Katas2024/main/assets/component-data-fabric.png)
+![Data Fabric Architecture](https://example.com/architecture-data-fabric.png)
 
 ## Component Details
 
@@ -15,6 +15,8 @@ Below is the high-level architecture view of ***Data Fabric*** in the Fish Watch
 | ***Data Storage and Management***  | Storage solutions for structured and unstructured data, including data lakes, data warehouses, NoSQL databases, and object storage for scalable, high-performance data storage and retrieval. | Amazon S3, Apache Hadoop, MongoDB, Elasticsearch |
 | ***Data Governance and Security***  | Governance framework for data access control, data lineage tracking, data quality monitoring, metadata management, and compliance with data privacy regulations. | Apache Ranger, Apache Atlas, Data Quality Tools, Encryption Tools |
 | ***Data Access APIs***  | APIs and services layer for providing data access, query interfaces, data cataloging, and data virtualization capabilities to enable seamless data consumption by applications and users. | RESTful APIs, GraphQL, Data Virtualization Tools |
+
+![Data Fabric Component Diagram](../Assets/component-data-fabric.png)
 
 ## Architectural Characteristics
 
