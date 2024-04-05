@@ -63,6 +63,10 @@ Below is the proposed high level architecture for implementing the FishWatch sol
 
 [Main Components/Systems](SoftwareSystems/)
 
+## Sequence Diagram 
+Below is the proposed sequence diagram for implementing the FishWatch solution:
+
+![High Level Architecture](Assets/sequence_diagrams/fish_watch_sequence_diagram.png) 
 ## Architecture Characteristics
 
 ![Architecture Characteristics Worksheet](Assets/architecture-worksheet.png)
