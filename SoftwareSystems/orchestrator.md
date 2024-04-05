@@ -12,7 +12,7 @@
 | ***API Gateway***  | Gateway for providing unified access, authentication, authorization, and API management capabilities to external systems, users, and third-party integrations interacting with the Orchestrator System. | Authentication Service, Ambassador |
 
 ### Component Diagram
-![Orchestrator Component Diagram](../Assets/components/orchaestrator.png)
+![Orchestrator Component Diagram](../Assets/components/orchestrator.png)
 
 ## Architectural Characteristics
 
