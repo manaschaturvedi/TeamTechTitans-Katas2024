@@ -61,6 +61,8 @@ Below is the proposed high level architecture for implementing the FishWatch sol
 
 ![High Level Architecture](Assets/high-level-diagram.png)
 
+[Main Components/Systems](SoftwareSystems/)
+
 ## Architecture Characteristics
 
 ![Architecture Characteristics Worksheet](Assets/architecture-worksheet.png)
