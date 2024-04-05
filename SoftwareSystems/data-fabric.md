@@ -28,6 +28,6 @@
 - Data Mesh Architecture for decentralized data ownership, domain-oriented data domains, and self-serve data capabilities aligned with Fish Watch business domains.
 
 ## Deployment View
-Below is the deployment view based on the architecture choice and this ADR [Deploy Data Fabric System in cloud.md](https://github.com/example/adr-repo/blob/main/ADRs/Deploy%20Data%20Fabric%20System%20in%20cloud.md)
+Below is the deployment view based on the architecture choice and this ADR [Deploy Data Fabric System in cloud.md](../ADRs/014-deployment-strategy.md)
 
-![Data Fabric Deployment View](https://example.com/data-fabric-deployment.png)
+![Data Fabric Deployment View](../Assets/deployment/DataFabric.png)

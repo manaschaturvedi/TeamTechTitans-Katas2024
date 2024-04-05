@@ -29,6 +29,6 @@
 - Microservices Architecture for scalability, flexibility, and independent development, deployment, and scaling of ML Ops components.
 
 ## Deployment View
-Below is the deployment view based on the architecture choice and this ADR [Deploy ML Ops System in cloud.md](https://github.com/example/adr-repo/blob/main/ADRs/Deploy%20ML%20Ops%20System%20in%20cloud.md)
+Below is the deployment view based on the architecture choice and this ADR [Deploy ML Ops System in cloud.md](../ADRs/014-deployment-strategy.md)
 
-![ML Ops Deployment View](https://example.com/ml-ops-deployment.png)
+![ML Ops Deployment View](../Assets/deployment/MLOps.png)
