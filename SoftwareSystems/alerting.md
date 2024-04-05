@@ -23,7 +23,8 @@
 | ***Notification Service***  | Service for managing alert notifications, delivery channels (email, SMS, push notifications), message templates, delivery retries, and notification history tracking. | SMTP, SMS vendors: SMSGupshup (primary) and Twilio (fallback), Firebase (push notifications) |
 | ***Alert Dashboard***  | Dashboard interface for visualizing active alerts, alert trends, alert history, severity levels, acknowledgment status, and drill-down capabilities for detailed alert analysis. | Grafana, Kibana, Metabase (default and custom dashboards) |
 
-![Alert Component Diagram](../Assets/components/Alerting.png)
+### Component Diagram
+![Alert Component Diagram](../Assets/components/alerting.png)
 
 ## Architectural Characteristics
 

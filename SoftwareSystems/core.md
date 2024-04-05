@@ -33,9 +33,8 @@ Below is the high-level architecture view of ***Core Service*** in the Fish Watc
 | ***Security and Authentication***  | Security layer for implementing authentication, authorization, identity management, encryption, access control, and security policies to protect sensitive data and system resources. | OAuth2, JWT, SSL/TLS, Identity Providers |
 
 ### Component Diagram
-![Core Component Diagram](../Assets/components/Core.svg)
-<!-- ![Core Security Component Diagram](../Assets/components/Core-security.png) -->
-<img src="../Assets/components/Core-security.png" alt="drawing" width="400"/>
+![Core Component Diagram](../Assets/components/core.svg)
+<img src="../Assets/components/core-security.png" alt="drawing" width="400"/>
 
 ## Architectural Characteristics
 
