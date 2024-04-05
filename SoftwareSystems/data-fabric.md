@@ -2,19 +2,17 @@
 
 ***Data Fabric*** is the software system responsible for managing data integration, transformation, storage, and access within the Fish Watch system. It ensures data consistency, reliability, and scalability across heterogeneous data sources and analytical workflows.
 
-Below is the high-level architecture view of ***Data Fabric*** in the Fish Watch system.
-
-![Data Fabric Architecture](https://github.com/TeamTechTitans-Katas2024/main/assets/component-data-fabric.png)
-
 ## Component Details
 
 | Component Name  | Component Description | Technology Choices |
 | ------------- | ------------- | ------------- |
-| ***Data Integration Layer***  | Integration layer for connecting and aggregating data from diverse sources such as sensors, databases, APIs, and external data providers. | Apache NiFi, Kafka Connect, Custom Integrations |
-| ***Data Processing Engine***  | Engine for batch and real-time data processing, transformation, enrichment, and cleansing to prepare data for analytics, machine learning, and reporting. | Apache Spark, Apache Flink, StreamSets |
-| ***Data Storage and Management***  | Storage solutions for structured and unstructured data, including data lakes, data warehouses, NoSQL databases, and object storage for scalable, high-performance data storage and retrieval. | Amazon S3, Apache Hadoop, MongoDB, Elasticsearch |
-| ***Data Governance and Security***  | Governance framework for data access control, data lineage tracking, data quality monitoring, metadata management, and compliance with data privacy regulations. | Apache Ranger, Apache Atlas, Data Quality Tools, Encryption Tools |
-| ***Data Access APIs***  | APIs and services layer for providing data access, query interfaces, data cataloging, and data virtualization capabilities to enable seamless data consumption by applications and users. | RESTful APIs, GraphQL, Data Virtualization Tools |
+| ***Data Integration Layer***  | Integration layer for connecting and aggregating data from diverse sources such as sensors, databases, APIs, and external data providers. | MQTT Broker, RabbitMQ, Custom Data Ingestion Scripts |
+| ***Data Processing Engine***  | Engine for batch and real-time data processing, transformation, enrichment, and cleansing to prepare data for analytics, machine learning, and reporting. | Pandas, NumPy, Scikit-Learn, Keras |
+| ***Data Storage and Management***  | Storage solutions for structured and unstructured data, including data lakes, data warehouses, NoSQL databases, and object storage for scalable, high-performance data storage and retrieval. | Google Cloud Storage (GCS), PostgreSQL, Elasticsearch, Redis, BigQuery |
+| ***Data Governance and Security***  | Governance framework for data access control, data lineage tracking, data quality monitoring, metadata management, and compliance with data privacy regulations. | Google Cloud Platform, Data Quality Tools, Encryption Tools |
+| ***Data Access APIs***  | APIs and services layer for providing data access, query interfaces, data cataloging, and data virtualization capabilities to enable seamless data consumption by applications and users. | RESTful APIs, Elasticsearch, Metabase, Grafana, BigQuery |
+
+![Data Fabric Component Diagram](../Assets/component-data-fabric.png)
 
 ## Architectural Characteristics
 
@@ -30,6 +28,6 @@ Below is the high-level architecture view of ***Data Fabric*** in the Fish Watch
 - Data Mesh Architecture for decentralized data ownership, domain-oriented data domains, and self-serve data capabilities aligned with Fish Watch business domains.
 
 ## Deployment View
-Below is the deployment view based on the architecture choice and this ADR [Deploy Data Fabric System in cloud.md](https://github.com/example/adr-repo/blob/main/ADRs/Deploy%20Data%20Fabric%20System%20in%20cloud.md)
+Below is the deployment view based on the architecture choice and this ADR [Deploy Data Fabric System in cloud.md](../ADRs/014-deployment-strategy.md)
 
-![Data Fabric Deployment View](https://example.com/data-fabric-deployment.png)
+![Data Fabric Deployment View](../Assets/deployment/DataFabric.png)

@@ -10,10 +10,10 @@ Below is the high-level architecture view of ***Core Service*** in the Fish Watc
 
 | Component Name  | Component Description | Technology Choices |
 | ------------- | ------------- | ------------- |
-| ***Business Logic Layer***  | Layer for implementing core business logic, domain-specific rules, workflows, data transformations, and processing algorithms to support Fish Watch functionalities. | Java, Python, Node.js, C# |
-| ***Data Access Layer***  | Layer for accessing and interacting with data stores, databases, external APIs, and data sources to retrieve, store, update, and manage data required by the Core Service. | ORM Frameworks, RESTful APIs, SQL/NoSQL Databases |
-| ***Service APIs***  | APIs exposed by the Core Service for communication with other system components, external services, user interfaces, and integration points within the Fish Watch ecosystem. | RESTful APIs, GraphQL, OpenAPI |
-| ***Event Handling***  | Component for handling asynchronous events, messaging, event-driven architecture patterns, and event processing within the Core Service for real-time updates and data synchronization. | Apache Kafka, RabbitMQ, Event-Driven Architecture |
+| ***Business Logic Layer***  | Layer for implementing core business logic, domain-specific rules, workflows, data transformations, and processing algorithms to support Fish Watch functionalities. | Python, Elixir |
+| ***Data Access Layer***  | Layer for accessing and interacting with data stores, databases, external APIs, and data sources to retrieve, store, update, and manage data required by the Core Service. | ORM Frameworks, RESTful APIs, SQL Databases, Caching Layer (Redis) |
+| ***Service APIs***  | APIs exposed by the Core Service for communication with other system components, external services, user interfaces, and integration points within the Fish Watch ecosystem. | RESTful APIs |
+| ***Event Handling***  | Component for handling asynchronous events, messaging, event-driven architecture patterns, and event processing within the Core Service for real-time updates and data synchronization. | RabbitMQ, Event-Driven Architecture |
 | ***Security and Authentication***  | Security layer for implementing authentication, authorization, identity management, encryption, access control, and security policies to protect sensitive data and system resources. | OAuth2, JWT, SSL/TLS, Identity Providers |
 
 ![Core Component Diagram](../Assets/components/Core_2.svg)
@@ -32,6 +32,6 @@ Below is the high-level architecture view of ***Core Service*** in the Fish Watc
 - Microservices Architecture for modular, independent services, API-driven interactions, and agile development, deployment, and scaling of Core Service components.
 
 ## Deployment View
-Below is the deployment view based on the architecture choice and this ADR [Deploy Core Service in cloud.md](https://github.com/example/adr-repo/blob/main/ADRs/Deploy%20Core%20Service%20in%20cloud.md)
+Below is the deployment view based on the architecture choice and this ADR [Deploy Core Service in cloud.md](../ADRs/014-deployment-strategy.md)
 
 ![Core Service Deployment View](../Assets/deployment/Core.png)

@@ -2,18 +2,14 @@
 
 ***Alerting System*** is the software component responsible for real-time monitoring, anomaly detection, threshold-based alerts, and notification management within the Fish Watch system. It ensures timely alerts and notifications to stakeholders based on predefined conditions and thresholds.
 
-Below is the high-level architecture view of ***Alerting System*** in the Fish Watch system.
-
-![Alerting System Architecture](https://example.com/alerting-system-architecture.png)
-
 ## Component Details
 
 | Component Name  | Component Description | Technology Choices |
 | ------------- | ------------- | ------------- |
-| ***Alert Engine***  | Engine for processing incoming data streams, applying alerting rules, threshold checks, anomaly detection algorithms, and triggering alerts based on predefined conditions. | Apache Flink, Apache Storm, Rules Engine |
+| ***Alert Engine***  | Engine for processing incoming data streams, applying alerting rules, threshold checks, anomaly detection algorithms, and triggering alerts based on predefined conditions. | Rules Engine (in-house) |
 | ***Alert Rules Management***  | Management interface for defining, configuring, and managing alerting rules, thresholds, escalation policies, notification channels, and alert severity levels. | Web Interface, Configuration Files |
-| ***Notification Service***  | Service for managing alert notifications, delivery channels (email, SMS, push notifications), message templates, delivery retries, and notification history tracking. | SMTP, Twilio API, Push Notification Services |
-| ***Alert Dashboard***  | Dashboard interface for visualizing active alerts, alert trends, alert history, severity levels, acknowledgment status, and drill-down capabilities for detailed alert analysis. | Grafana, Kibana, Custom Dashboards |
+| ***Notification Service***  | Service for managing alert notifications, delivery channels (email, SMS, push notifications), message templates, delivery retries, and notification history tracking. | SMTP, SMS vendors: SMSGupshup (primary) and Twilio (fallback), Firebase (push notifications) |
+| ***Alert Dashboard***  | Dashboard interface for visualizing active alerts, alert trends, alert history, severity levels, acknowledgment status, and drill-down capabilities for detailed alert analysis. | Grafana, Kibana, Metabase (default and custom dashboards) |
 
 ![Alert Component Diagram](../Assets/components/Alerting.png)
 
