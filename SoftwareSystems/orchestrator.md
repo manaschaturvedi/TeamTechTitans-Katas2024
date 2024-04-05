@@ -30,4 +30,4 @@
 ## Deployment View
 Below is the deployment view based on the architecture choice and this ADR [Deploy Orchestrator System in cloud.md](../ADRs/014-deployment-strategy.md)
 
-![Orchestrator System Deployment View](../Assets/deployment/orchestrator-deployment-diagram.png)
+![Orchestrator System Deployment View](../Assets/deployment/orchestrator.png)
