@@ -77,6 +77,8 @@ Below is the proposed high level architecture for implementing the FishWatch sol
 
 ## Architecture Style Decisions
 
-[Architectural Decision Record](ADRs/000-architectural-approach.md)
+Microservices vs Monolithic architecture: [ADR-000](ADRs/000-architectural-approach.md)
 
 ![Architecture Styles Worksheet](Assets/architecture-styles-worksheet.png)
+
+[Complete list of ADRs](ADRs/)
