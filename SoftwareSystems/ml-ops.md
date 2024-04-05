@@ -2,17 +2,13 @@
 
 ***ML Ops*** is the software system responsible for managing machine learning model development, deployment, monitoring, and optimization within the Fish Watch system. It ensures the seamless integration of machine learning capabilities into operational workflows and decision-making processes.
 
-Below is the high-level architecture view of ***ML Ops*** in the Fish Watch system.
-
-![ML Ops Architecture](https://example.com/architecture-mlops.png)
-
 ## Component Details
 
 | Component Name  | Component Description | Technology Choices |
 | ------------- | ------------- | ------------- |
 | ***Model Development Environment***  | Environment for data scientists to develop, train, and evaluate machine learning models using historical data, feature engineering, and model validation techniques. | Jupyter Notebooks, Python, TensorFlow, PyTorch |
-| ***Model Registry***  | Centralized repository for storing trained machine learning models, version control, metadata management, and model lineage tracking. | MLflow, Databricks, S3 Bucket |
-| ***Model Deployment Service***  | Service responsible for deploying machine learning models into production, creating inference endpoints, managing model versions, and scaling prediction workloads. | Docker, Kubernetes, Flask, AWS Lambda |
+| ***Model Registry***  | Centralized repository for storing trained machine learning models, version control, metadata management, and model lineage tracking. | MLflow, Databricks, Google Cloud Storage (GCS) |
+| ***Model Deployment Service***  | Service responsible for deploying machine learning models into production, creating inference endpoints, managing model versions, and scaling prediction workloads. | Docker, Kubernetes, Flask |
 | ***Model Monitoring and Feedback Loop***  | Continuous monitoring of deployed models, drift detection, performance metrics tracking, feedback collection from users and domain experts, and automated model retraining based on feedback and data changes. | Prometheus, Grafana, Custom Monitoring Scripts |
 | ***Data Pipeline Orchestration***  | Orchestration layer for data ingestion, preprocessing, feature engineering, batch processing, and streaming data pipelines feeding into the model development and deployment workflows. | Apache Airflow, AWS Glue, Kafka |
 | ***Model Governance and Compliance***  | Governance framework for managing access control, security policies, regulatory compliance, model explainability, and auditing of machine learning models and workflows. | Apache Ranger, Model Explainability Tools, Auditing Tools |
