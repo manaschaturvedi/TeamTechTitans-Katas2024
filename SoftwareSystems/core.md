@@ -19,7 +19,7 @@ Below is the high-level architecture view of ***Core Service*** in the Fish Watc
 ### Component Diagram
 ![Core Component Diagram](../Assets/components/Core.svg)
 <!-- ![Core Security Component Diagram](../Assets/components/Core-security.png) -->
-<img src="../Assets/components/Core-security.png" alt="drawing" width="200"/>
+<img src="../Assets/components/Core-security.png" alt="drawing" width="400"/>
 
 ## Architectural Characteristics
 
