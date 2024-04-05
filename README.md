@@ -76,5 +76,5 @@ Below is the proposed high level architecture for implementing the FishWatch sol
 | Scalability | Design the system to seamlessly accommodate the increasing data loads, user demands, and business growth, ensuring that it can scale horizontally or vertically to meet evolving requirements without compromising performance or reliability. |
 
 ## Architecture Style Decisions
-![ADR](ADRs/000-architectural-approach.md)
+[Architectural Approach](ADRs/000-architectural-approach.md)
 ![Architecture Styles Worksheet](Assets/architecture-styles-worksheet.png)
