@@ -2,7 +2,6 @@
 
 ***Alerting System*** is the software component responsible for real-time monitoring, anomaly detection, threshold-based alerts, and notification management within the Fish Watch system. It ensures timely alerts and notifications to stakeholders based on predefined conditions and thresholds.
 
-
 ## Sequence Details
 | Step | Description |
 | ---- | ----------- |
