@@ -19,7 +19,7 @@ Below is the high-level architecture view of ***Core Service*** in the Fish Watc
 | ***ThresholdTable***           | A table to store user-defined thresholds for triggering alerts based on parameter values.                       | Unique index on user_id in thresholds table.                    | It enables customization of alert thresholds for user-specific monitoring. |
 
 ### ER Diagram
-![FishWatch Core ER Diagram](../Assets/fish_watch_core_ER.png)
+![FishWatch Core ER Diagram](../Assets/fish-watch-core-ER.png)
 
 
 ## Component Details
@@ -52,4 +52,4 @@ Below is the high-level architecture view of ***Core Service*** in the Fish Watc
 ## Deployment View
 Below is the deployment view based on the architecture choice and this ADR [Deploy Core Service in cloud.md](../ADRs/014-deployment-strategy.md)
 
-![Core Service Deployment View](../Assets/deployment/Core.png)
+![Core Service Deployment View](../Assets/deployment/core.png)
