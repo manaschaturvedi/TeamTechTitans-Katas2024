@@ -7,10 +7,10 @@
 Accepted
 
 ## Context:
-The context for this decision is to discuss the integration of machine learning (ML) techniques and models into the Fish Watch system for various use cases. Machine learning can enhance predictive analytics, anomaly detection, decision support, and optimization in fish farming operations.
+The context for this decision is to discuss the integration of machine learning (ML) techniques and models into the Fishy Watch system for various use cases. Machine learning can enhance predictive analytics, anomaly detection, decision support, and optimization in fish farming operations.
 
 ## Decision:
-After evaluating the potential benefits and considerations, we have decided to incorporate machine learning into the Fish Watch system for the following use cases:
+After evaluating the potential benefits and considerations, we have decided to incorporate machine learning into the Fishy Watch system for the following use cases:
 
 ### 1. Predictive Analytics for Harvesting:
 - Utilize machine learning algorithms to predict optimal harvesting times based on historical data, environmental factors, fish health parameters, and market conditions.

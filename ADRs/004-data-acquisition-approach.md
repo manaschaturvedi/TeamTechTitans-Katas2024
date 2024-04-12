@@ -7,10 +7,10 @@
 Accepted
 
 ## Context:
-The context for this decision is to define the data acquisition approach for Fish Watch, including techniques to acquire data from hardware devices and communication protocols for seamless integration between hardware and software.
+The context for this decision is to define the data acquisition approach for Fishy Watch, including techniques to acquire data from hardware devices and communication protocols for seamless integration between hardware and software.
 
 ## Decision:
-After evaluating the requirements and considerations, we have defined the following data acquisition approach for Fish Watch:
+After evaluating the requirements and considerations, we have defined the following data acquisition approach for Fishy Watch:
 
 ### Techniques for Data Acquisition from Hardware:
 1. **Direct Sensor Integration**:

@@ -7,10 +7,10 @@
 Accepted
 
 ## Context:
-The context for this decision is to define the data retention and purge policy for the Fish Watch system. We need to establish guidelines for storing data, managing data lifecycle, and purging obsolete or redundant data to optimize storage resources and comply with data privacy regulations.
+The context for this decision is to define the data retention and purge policy for the Fishy Watch system. We need to establish guidelines for storing data, managing data lifecycle, and purging obsolete or redundant data to optimize storage resources and comply with data privacy regulations.
 
 ## Decision:
-After careful consideration and analysis, we have defined the following data retention and purge policy for Fish Watch:
+After careful consideration and analysis, we have defined the following data retention and purge policy for Fishy Watch:
 
 ### Data Retention Policy:
 1. **Raw Sensor Data**:

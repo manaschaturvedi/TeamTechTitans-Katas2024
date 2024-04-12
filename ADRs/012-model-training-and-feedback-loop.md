@@ -7,7 +7,7 @@
 Accepted
 
 ## Context:
-The context for this decision is to define the machine learning model training process and establish a feedback loop for continuous improvement and optimization of machine learning models used in various use cases within the Fish Watch system.
+The context for this decision is to define the machine learning model training process and establish a feedback loop for continuous improvement and optimization of machine learning models used in various use cases within the Fishy Watch system.
 
 ## Decision:
 After evaluating the machine learning use cases and considering model performance, data availability, and business objectives, we have defined the following approach for machine learning model training and feedback loop:

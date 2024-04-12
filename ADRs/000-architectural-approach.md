@@ -7,10 +7,10 @@
 Accepted
 
 ## Context:
-The context for this decision is the architectural approach for the Fish Watch system. We need to decide between a microservices architecture and a monolithic architecture.
+The context for this decision is the architectural approach for the Fishy Watch system. We need to decide between a microservices architecture and a monolithic architecture.
 
 ## Decision:
-We have decided to adopt a microservices architecture for the Fish Watch system. This decision is based on the need for scalability, flexibility, and easier maintenance and deployment of individual components.
+We have decided to adopt a microservices architecture for the Fishy Watch system. This decision is based on the need for scalability, flexibility, and easier maintenance and deployment of individual components.
 
 ## Consequences:
 ### Pros:
