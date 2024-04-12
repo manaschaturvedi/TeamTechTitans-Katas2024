@@ -1,4 +1,4 @@
-# ADR-002: API Platform Implementation for Fish Watch
+# ADR-002: API Platform Implementation for Fishy Watch
 
 ## Date:
 2024-04-04
@@ -7,7 +7,7 @@
 Accepted
 
 ## Context:
-The Fish Watch system requires a robust API platform to expose and manage APIs for communication between different system components, external services, and third-party integrations. The API platform should include components like an API gateway, ambassador, request and response handlers, and other necessary functionalities to ensure secure, reliable, and efficient API interactions.
+The Fishy Watch system requires a robust API platform to expose and manage APIs for communication between different system components, external services, and third-party integrations. The API platform should include components like an API gateway, ambassador, request and response handlers, and other necessary functionalities to ensure secure, reliable, and efficient API interactions.
 
 ## Decision:
 1. **API Gateway**:

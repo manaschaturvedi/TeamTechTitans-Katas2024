@@ -1,6 +1,6 @@
-# Data Fabric for Fish Watch System
+# Data Fabric for Fishy Watch System
 
-***Data Fabric*** is the software system responsible for managing data integration, transformation, storage, and access within the Fish Watch system. It ensures data consistency, reliability, and scalability across heterogeneous data sources and analytical workflows.
+***Data Fabric*** is the software system responsible for managing data integration, transformation, storage, and access within the Fishy Watch system. It ensures data consistency, reliability, and scalability across heterogeneous data sources and analytical workflows.
 
 ## Component Details
 
@@ -26,7 +26,7 @@
 
 ## Architectural Choice
 
-- Data Mesh Architecture for decentralized data ownership, domain-oriented data domains, and self-serve data capabilities aligned with Fish Watch business domains.
+- Data Mesh Architecture for decentralized data ownership, domain-oriented data domains, and self-serve data capabilities aligned with Fishy Watch business domains.
 
 ## Deployment View
 Below is the deployment view based on the architecture choice and this ADR [Deploy Data Fabric System in cloud.md](../ADRs/014-deployment-strategy.md)

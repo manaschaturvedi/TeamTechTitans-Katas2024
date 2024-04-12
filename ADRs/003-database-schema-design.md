@@ -1,16 +1,16 @@
 # ADR-003: Database Schema Design
 
 ## Date:
-[Date when the decision was made]
+2024-04-03
 
 ## Status:
 Accepted
 
 ## Context:
-The context for this decision is to define the database schema, entities, and relationships for the Fish Watch system. We need to model the data structure to efficiently store and retrieve information related to fish farms, water quality, fish health, alerts, and user profiles.
+The context for this decision is to define the database schema, entities, and relationships for the Fishy Watch system. We need to model the data structure to efficiently store and retrieve information related to fish farms, water quality, fish health, alerts, and user profiles.
 
 ## Decision:
-After analyzing the requirements and data relationships, we have designed the following database schema for Fish Watch:
+After analyzing the requirements and data relationships, we have designed the following database schema for Fishy Watch:
 
 ### Entities and Relationships:
 1. **User**:
@@ -39,12 +39,11 @@ After analyzing the requirements and data relationships, we have designed the fo
 
 ### Database Schema:
 
-[ER diagram]
-
+![Database Schema](../Assets/database-schema.png)
 
 ## Consequences:
 ### Pros:
-- Clear Data Model: The designed schema provides a clear understanding of entities, attributes, and relationships in the Fish Watch system.
+- Clear Data Model: The designed schema provides a clear understanding of entities, attributes, and relationships in the Fishy Watch system.
 - Data Integrity: Foreign key constraints and entity relationships ensure data integrity and consistency.
 - Scalability: The schema is designed to accommodate growth and scalability, supporting multiple farms, enclosures, fishes, and data records.
 - Efficient Queries: Optimized database design facilitates efficient querying and data retrieval operations.

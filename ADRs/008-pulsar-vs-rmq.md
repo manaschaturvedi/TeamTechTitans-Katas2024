@@ -7,10 +7,10 @@
 Accepted
 
 ## Context:
-The context for this decision is to explain why RabbitMQ (RMQ) was chosen as the message broker for the Fish Watch system over Apache Pulsar. This decision is based on thorough evaluation and analysis of both options, considering factors such as scalability, performance, reliability, feature set, integration capabilities, and alignment with system requirements.
+The context for this decision is to explain why RabbitMQ (RMQ) was chosen as the message broker for the Fishy Watch system over Apache Pulsar. This decision is based on thorough evaluation and analysis of both options, considering factors such as scalability, performance, reliability, feature set, integration capabilities, and alignment with system requirements.
 
 ## Decision:
-After careful consideration and evaluation, we have decided to choose RabbitMQ (RMQ) as the message broker for the Fish Watch system over Apache Pulsar. Here are the reasons for our decision:
+After careful consideration and evaluation, we have decided to choose RabbitMQ (RMQ) as the message broker for the Fishy Watch system over Apache Pulsar. Here are the reasons for our decision:
 
 ### Reasons for Choosing RabbitMQ (RMQ):
 1. **Mature Technology and Community Support**:
@@ -33,7 +33,7 @@ After careful consideration and evaluation, we have decided to choose RabbitMQ (
 
 ## Consequences:
 ### Pros:
-- Chosen message broker (RabbitMQ) offers maturity, community support, integration flexibility, feature-rich capabilities, scalability, and performance aligned with Fish Watch system requirements.
+- Chosen message broker (RabbitMQ) offers maturity, community support, integration flexibility, feature-rich capabilities, scalability, and performance aligned with Fishy Watch system requirements.
 - Familiarity with RabbitMQ among the development team streamlines development, integration, and maintenance efforts.
 - RabbitMQ's ecosystem, tooling, and plugin support enhance operational capabilities and monitoring of message queues.
 

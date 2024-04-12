@@ -7,10 +7,10 @@
 Accepted
 
 ## Context:
-The context for this decision is to define the communication protocols between hardware devices (sensors, cameras, etc.) and software components in the Fish Watch system, considering both online and offline scenarios with or without internet connectivity.
+The context for this decision is to define the communication protocols between hardware devices (sensors, cameras, etc.) and software components in the Fishy Watch system, considering both online and offline scenarios with or without internet connectivity.
 
 ## Decision:
-After evaluating connectivity requirements, data transfer needs, reliability, and compatibility with hardware devices, we have identified the following communication protocols for Fish Watch:
+After evaluating connectivity requirements, data transfer needs, reliability, and compatibility with hardware devices, we have identified the following communication protocols for Fishy Watch:
 
 ### Communication Protocols with Internet Connectivity:
 1. **MQTT (Message Queuing Telemetry Transport)**:

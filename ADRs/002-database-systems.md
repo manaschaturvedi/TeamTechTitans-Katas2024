@@ -7,10 +7,10 @@
 Accepted
 
 ## Context:
-The context for this decision is to determine the types of database systems to be used for each use case in the Fish Watch system. We need to consider factors such as data structure, scalability, performance, and data consistency.
+The context for this decision is to determine the types of database systems to be used for each use case in the Fishy Watch system. We need to consider factors such as data structure, scalability, performance, and data consistency.
 
 ## Decision:
-After evaluating the requirements and considerations, we have decided to use the following types of database systems for each use case in the Fish Watch system:
+After evaluating the requirements and considerations, we have decided to use the following types of database systems for each use case in the Fishy Watch system:
 
 1. **Data Collection and Storage**:
    - **Time-Series Database**: For storing time-series data collected from water monitors, underwater cameras, and fish-ual recognition. Examples include InfluxDB or TimescaleDB, which are optimized for handling time-series data efficiently.

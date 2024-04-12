@@ -14,7 +14,7 @@ Team TechTitans Architectural Katas by O'Reilly, April 2024
 
 ---
 
-# Fish Watch
+# Fishy Watch
 
 ## Business Context
 Livestock Insights Incorporated is a company headquartered in Scotland, but
@@ -42,7 +42,7 @@ Fish farmers use this information to understand the health of their livestock, c
 | ---- |-------------|
 | TR1      | Connectivity in Remote Areas <br> - Considerations for remote fish farm locations with poor cellular signal. |
 | TR2      | Data Transmission <br> - Define mechanisms for hardware devices to transmit collected data to the system. |
-| TR3 | Device Accessibility <br> - Fish Watch should be accessible from various devices, including rugged industrial devices used at sea during harvest. |
+| TR3 | Device Accessibility <br> - Fishy Watch should be accessible from various devices, including rugged industrial devices used at sea during harvest. |
 | TR4 | Future Scalability <br> - Architect the system to accommodate potential expansion into cattle monitoring and aquarium health management. |
 
 ## Target Audience
@@ -55,19 +55,19 @@ Fish farmers use this information to understand the health of their livestock, c
    
 - **Researchers**: Professionals engaged in research related to aquaculture, fish health, and behavior.
 
-- **Livestock Insights Inc. Support and Developers**: Individuals responsible for managing, maintaining, and developing the Fish Watch system, including its software, hardware, and data infrastructure.
+- **Livestock Insights Inc. Support and Developers**: Individuals responsible for managing, maintaining, and developing the Fishy Watch system, including its software, hardware, and data infrastructure.
 
 - **Regulatory Authorities**: Regulatory agencies overseeing aquaculture/livestock practices, who may use the system to monitor compliance and ensure the health and welfare of farmed fish.
 
 ## High Level Architecture
-Below is the proposed high level architecture for implementing the FishWatch solution:
+Below is the proposed high level architecture for implementing the Fishy Watch solution:
 
 ![High Level Architecture](Assets/high-level-diagram.png)
 
 [Main Components/Systems](SoftwareSystems/)
 
 ## Sequence Diagram 
-Below is the proposed sequence diagram for implementing the FishWatch solution:
+Below is the proposed sequence diagram for implementing the FishyWatch solution:
 
 ![High Level Architecture](Assets/sequence_diagrams/fish_watch_sequence_diagram.png) 
 ## Architecture Characteristics

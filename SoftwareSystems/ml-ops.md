@@ -1,6 +1,6 @@
-# ML Ops for Fish Watch System
+# ML Ops for Fishy Watch System
 
-***ML Ops*** is the software system responsible for managing machine learning model development, deployment, monitoring, and optimization within the Fish Watch system. It ensures the seamless integration of machine learning capabilities into operational workflows and decision-making processes.
+***ML Ops*** is the software system responsible for managing machine learning model development, deployment, monitoring, and optimization within the Fishy Watch system. It ensures the seamless integration of machine learning capabilities into operational workflows and decision-making processes.
 
 ## Component Details
 

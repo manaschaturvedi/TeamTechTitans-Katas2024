@@ -1,6 +1,6 @@
-# Alerting System for Fish Watch
+# Alerting System for Fishy Watch
 
-***Alerting System*** is the software component responsible for real-time monitoring, anomaly detection, threshold-based alerts, and notification management within the Fish Watch system. It ensures timely alerts and notifications to stakeholders based on predefined conditions and thresholds.
+***Alerting System*** is the software component responsible for real-time monitoring, anomaly detection, threshold-based alerts, and notification management within the Fishy Watch system. It ensures timely alerts and notifications to stakeholders based on predefined conditions and thresholds.
 
 ## Sequence Details
 | Step | Description |
@@ -38,7 +38,7 @@
 
 ## Architectural Choice
 
-- Event-Driven Architecture for real-time event processing, asynchronous alert generation, and event-driven workflows aligned with Fish Watch monitoring needs.
+- Event-Driven Architecture for real-time event processing, asynchronous alert generation, and event-driven workflows aligned with Fishy Watch monitoring needs.
 
 ## Deployment View
 Below is the deployment view based on the architecture choice and this ADR [Deploy Alerting System in cloud.md](../ADRs/005-alerting-metrics-and-thresholds.md)

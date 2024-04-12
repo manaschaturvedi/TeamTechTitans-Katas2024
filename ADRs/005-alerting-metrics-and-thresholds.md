@@ -7,10 +7,10 @@
 Accepted
 
 ## Context:
-The context for this decision is to define the alerting metrics and thresholds for the Fish Watch system. We need to determine the criteria for triggering alerts based on various parameters such as water quality, fish health, environmental conditions, and system anomalies.
+The context for this decision is to define the alerting metrics and thresholds for the Fishy Watch system. We need to determine the criteria for triggering alerts based on various parameters such as water quality, fish health, environmental conditions, and system anomalies.
 
 ## Decision:
-After analyzing the requirements and considerations, we have defined the following alerting metrics and thresholds for Fish Watch:
+After analyzing the requirements and considerations, we have defined the following alerting metrics and thresholds for Fishy Watch:
 
 ### Alerting Metrics:
 1. **Water Quality Metrics**:

@@ -7,10 +7,10 @@
 Accepted
 
 ## Context:
-The context for this decision is to choose the right message broker for the Fish Watch system. We have evaluated two options: Apache Pulsar and RabbitMQ (RMQ), considering factors such as scalability, performance, reliability, feature set, and compatibility with our system requirements.
+The context for this decision is to choose the right message broker for the Fishy Watch system. We have evaluated two options: Apache Pulsar and RabbitMQ (RMQ), considering factors such as scalability, performance, reliability, feature set, and compatibility with our system requirements.
 
 ## Decision:
-After thorough evaluation and analysis, we have decided to use [Apache Pulsar / RabbitMQ] as the message broker for the Fish Watch system. Here are the reasons for our decision:
+After thorough evaluation and analysis, we have decided to use [Apache Pulsar / RabbitMQ] as the message broker for the Fishy Watch system. Here are the reasons for our decision:
 
 ### Apache Pulsar:
 - **Scalability**: Apache Pulsar is designed for horizontal scalability, allowing us to handle growing message volumes and concurrent connections effectively.
@@ -27,7 +27,7 @@ After thorough evaluation and analysis, we have decided to use [Apache Pulsar / 
 
 ## Consequences:
 ### Pros:
-- Chosen message broker (Apache Pulsar / RabbitMQ) offers scalability, performance, reliability, and feature-rich capabilities aligned with Fish Watch system requirements.
+- Chosen message broker (Apache Pulsar / RabbitMQ) offers scalability, performance, reliability, and feature-rich capabilities aligned with Fishy Watch system requirements.
 - Decision based on thorough evaluation, considering factors like system architecture, integration needs, and future scalability.
 - Extensive documentation, community support, and ecosystem for the selected message broker facilitate implementation, troubleshooting, and maintenance.
 

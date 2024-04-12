@@ -1,4 +1,4 @@
-# Insights for Fish Watch
+# Insights for Fishy Watch
 
  ***Insights*** is the software system responsible for providing in-depth analysis and actionable insights into various aspects of aquaculture operations. It offers both metric details and insights details to enable users to make informed decisions and optimize their fish farming practices.
 ## Metric Details

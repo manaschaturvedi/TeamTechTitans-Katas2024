@@ -1,6 +1,6 @@
-# Data Acquisition for Fish Watch
+# Data Acquisition for Fishy Watch
 
-***Data Acquisition*** is the process of collecting data from hardware devices such as sensors, cameras, and other monitoring equipment within the Fish Watch system. It involves data ingestion, preprocessing, transformation, and storage to enable real-time monitoring and analysis of fish farm conditions.
+***Data Acquisition*** is the process of collecting data from hardware devices such as sensors, cameras, and other monitoring equipment within the Fishy Watch system. It involves data ingestion, preprocessing, transformation, and storage to enable real-time monitoring and analysis of fish farm conditions.
 
 ## Component Details
 
@@ -25,7 +25,7 @@
 
 ## Architectural Choice
 
-- Event-Driven Architecture for real-time data ingestion, processing, and storage aligned with Fish Watch data acquisition requirements.
+- Event-Driven Architecture for real-time data ingestion, processing, and storage aligned with Fishy Watch data acquisition requirements.
 
 ## Deployment View
 Below is the deployment view based on the architecture choice and this ADR [Deploy Data Acquisition System in cloud.md](../ADRs/014-deployment-strategy.md)
