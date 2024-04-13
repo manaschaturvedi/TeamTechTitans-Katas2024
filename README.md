@@ -70,6 +70,8 @@ Below is the proposed high level architecture for implementing the Fishy Watch s
 Below is the proposed sequence diagram for implementing the FishyWatch solution:
 
 ![High Level Architecture](Assets/sequence_diagrams/fish_watch_sequence_diagram.png) 
+
+![Sequence Diagram Simplified](Assets/components/sequence_diagram_simplified.png)
 ## Architecture Characteristics
 
 ![Architecture Characteristics Worksheet](Assets/architecture-worksheet.png)
