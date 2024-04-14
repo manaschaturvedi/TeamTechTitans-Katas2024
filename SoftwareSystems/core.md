@@ -29,7 +29,6 @@
 
 ### Component Diagram
 ![Core Component Diagram](../Assets/components/core.svg)
-<img src="../Assets/components/core-security.png" alt="drawing" width="400"/>
 
 ## Architectural Characteristics
 
