@@ -2,6 +2,8 @@
 
 Team TechTitans Architectural Katas by O'Reilly, April 2024
 
+Final video presentation: https://www.youtube.com/watch?v=MH5BAMARAEg
+
 ## Team Members:
 
 ![TechTitans Team Theme](Assets/techtitans-katas-2024.png)
