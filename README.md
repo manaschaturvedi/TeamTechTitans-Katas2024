@@ -28,6 +28,8 @@ It is able to collect information about individual fish, water quality, and weat
 Fish farmers use this information to understand the health of their livestock, check for signs of parasites and disease, and work out the best time to harvest.
 
 ## Business Requirements
+
+![Business Requirements](Assets/business_requirements.png) 
 | # | Description |
 | ---- |-------------|
 | BR1      | Customer Farm Management <br> - Customers may operate multiple fish farms in various geographical locations. <br> - Farms are divided into enclosures where fish are kept, ranging from a few to over a thousand enclosures per farm. <br> - Each enclosure is equipped with water monitors capturing data on pH, temperature, salinity, oxygen levels, and other factors. <br> - Underwater cameras provide general insights into fish health, monitoring size, activity, and parasite detection.  <br> - reference - [ADR-001](ADRs/001-user-interfaces.md)|
@@ -40,6 +42,7 @@ Fish farmers use this information to understand the health of their livestock, c
 | BR8 | Continuous Improvement <br> - Expectation for a similar system for other livestock like cattles and support for new hardware devices. |
 
 ## Technical Requirements
+![Technical Requirements](Assets/technical_requirements.png) 
 | # | Description |
 | ---- |-------------|
 | TR1      | Connectivity in Remote Areas <br> - Considerations for remote fish farm locations with poor cellular signal. |
@@ -91,6 +94,8 @@ Below is the proposed sequence diagram for implementing the FishyWatch solution:
 ## Architecture Style Decisions
 
 Microservices vs Monolithic architecture: [ADR-000](ADRs/000-architectural-approach.md)
+
+![MicroServices VS Monolithic](Assets/microservices_vs_monolithic.png)
 
 ![Architecture Styles Worksheet](Assets/architecture-styles-worksheet.png)
 
